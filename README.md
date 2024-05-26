@@ -1,2 +1,4 @@
 # Calculation-of-electron-density-in-solar-corona
 This python notebook contains the work of my BSc. Thesis in Aerospace Engineering titled "Electron density profiles variation as validation tool for new high-precision methods to evaluate the center of an occulted Sun".  The input is an image captured from the Metis coronagraph; the output is an electron density polar map of the solar corona.
+The images are publicly available on the [SOAR website](https://soar.esac.esa.int/soar/#home), follow their tutorial for download.
+Once the images are in the local tree of your device, insert them as paths in the variables *fname_pB* and *fname_tB*. Up to now, the code works by taking a model F-corona from the [A. Burtovoi's code](https://github.com/SolarOrbiterWorkshop/solo8_tutorials/tree/main/Metis_tutorial), based on the [Hayes 2001](https://ui.adsabs.harvard.edu/abs/2001ApJ...548.1081H/abstract) method. 
